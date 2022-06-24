@@ -1,0 +1,8 @@
+tasks:
+  - init: nix-shell --run 'echo "init script"' # runs during prebuild
+    command: echo 'Hello, gitpod!'
+
+vscode:
+  extensions:
+    - hashicorp.terraform
+    - pinage404.nix-extension-pack
