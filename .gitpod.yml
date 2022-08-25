@@ -6,3 +6,12 @@ vscode:
   extensions:
     - hashicorp.terraform
     - pinage404.nix-extension-pack
+    - mkhl.direnv
+    - arrterian.nix-env-selector
+    - jnoortheen.nix-ide
+    - ms-python.python
+
+github:
+  prebuilds:
+    branches: true
+    master: true
